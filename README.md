@@ -1,13 +1,36 @@
-# Harry-Potter-text-analysis
-This repository is a PyTorch implementation of Stanford CS224n (Winter 2018) using Harry Potter texts. 
+# NLP text analysis on Harry Potter books and Twitter data
+This repository is a PyTorch implementation of Stanford CS224n (Winter 2018) using Harry Potter texts + Twitter data. 
 
 Note: This material is only for personal research/study.
 
-All credits to the wonderful implementation in https://github.com/DSKSD/DeepNLP-models-Pytorch
+All credits to the wonderful implementation on https://github.com/DSKSD/DeepNLP-models-Pytorch
 
-First model is Skipgram (word2vec) implementation using only Naive Softmasx.
-Second model is GloVe implementation.
+Developed models are as follows:
+1. Skipgram (word2vec) implementation using only Naive Softmasx.
+2. GloVe
+3. RNN Language Modeling with LSTM
+4. Named Entity Recognition with Window Classification
+5. Twitter Sentiment Analysis with Convolutional Neural Network Text Classification
 
-The future material will include: Window classifier, RNN language model, CNN classifier, RecursiveNN for sentiment classification and many more. 
+The first four models are implemented on Harry Potter books (text available.) 
+Due to the lack of sentiment annotation for Harry Potter books I decided to use Twitter data for sentiment analysis. 
+
+Future models include:
+1. Recursive RNN for sentiment classification
+2. Neural machine translation (or any other applicable topics) with Attention/Transformer
+3. Transformer implementation
+4. Dynamic memory network for QA
+5. More sentiment analysis with these modifications
+  - pre-trained word embeddings
+  - different RNN architecture
+  - bidirectional RNN
+  - multi-layer RNN
+  - regularization
+  - a different optimizer
+ 6. Advanced character-level CNN text classification for sentiment analysis
+ 7. Pointer Sentinel Mixture Models
 
 Feel free to pull requests!
+
+Farshad Niayeshpour
+farshadp.nia@gmail.com
