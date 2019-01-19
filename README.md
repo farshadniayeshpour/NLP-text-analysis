@@ -6,20 +6,20 @@ Note: This material is only for personal research/study.
 All credits to the wonderful implementation on https://github.com/DSKSD/DeepNLP-models-Pytorch
 
 Developed models are as follows:
-1. Skipgram (word2vec) implementation using only Naive Softmasx.
-2. GloVe
-3. RNN Language Modeling with LSTM
-4. Named Entity Recognition with Window Classification
-5. Twitter Sentiment Analysis with Convolutional Neural Network Text Classification
+1. Skipgram (word2vec) implementation using only Naive Softmax (01, 02)
+2. GloVe (03)
+3. RNN Language Modeling with LSTM (06)
+4. Named Entity Recognition with Window Classification (04)
+5. Twitter Sentiment Analysis with Convolutional Neural Network Text Classification (08)
 
 The first four models are implemented on Harry Potter books (text available.) 
 Due to the lack of sentiment annotation for Harry Potter books I decided to use Twitter data for sentiment analysis. 
 
 Future models include:
-1. Recursive RNN for sentiment classification
-2. Neural machine translation (or any other applicable topics) with Attention/Transformer
+1. Recursive RNN for sentiment classification (09)
+2. Neural machine translation (or any other applicable topics) with Attention/Transformer (07)
 3. Transformer implementation
-4. Dynamic memory network for QA
+4. Dynamic memory network for QA (10)
 5. More sentiment analysis with these modifications
   - pre-trained word embeddings
   - different RNN architecture
