@@ -21,7 +21,7 @@ Due to the lack of sentiment annotation for Harry Potter books I decided to use 
 
 ## More models on sentiment analysis:
 1. Recursive RNN (TreeLSTM) for sentiment classification (09)
-2. Neural machine translation (possibly replaced by Sentiment Analysis) with Attention/Transformer (07)
+2. BiLSTM with Attention/Transformer (07)
 3. Advanced character-level CNN text classification for sentiment analysis
 
 ## Advanced models:
