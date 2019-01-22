@@ -21,7 +21,7 @@ Due to the lack of sentiment annotation for Harry Potter books I decided to use 
 
 ## Future models include:
 1. Recursive RNN for sentiment classification (09)
-2. Neural machine translation (or any other applicable topics) with Attention/Transformer (07)
+2. Neural machine translation (possibly replaced by Sentiment Analysis) with Attention/Transformer (07)
 3. Transformer implementation
 4. Dynamic memory network for QA (10)
 5. Advanced character-level CNN text classification for sentiment analysis
