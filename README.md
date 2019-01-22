@@ -20,7 +20,7 @@ The first four models are implemented on Harry Potter books (text available.)
 Due to the lack of sentiment annotation for Harry Potter books I decided to use Twitter data for sentiment analysis. 
 
 ## Future models include:
-1. Recursive RNN for sentiment classification (09)
+1. Recursive RNN (TreeLSTM) for sentiment classification (09)
 2. Neural machine translation (possibly replaced by Sentiment Analysis) with Attention/Transformer (07)
 3. Transformer implementation
 4. Dynamic memory network for QA (10)
