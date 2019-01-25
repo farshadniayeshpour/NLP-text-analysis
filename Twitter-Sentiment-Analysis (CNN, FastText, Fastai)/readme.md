@@ -15,6 +15,10 @@ GloVe pretrained word embeddings (20, 50, 100, 200 dimensions) provided by Stanf
 
 We made use of pretrained Twitter word embeddings, appending bigrams to the end of sentences (as recommended by FAIR) and average pooling. 
 
+## Fastai Language Model and Text Classifier
+
 Next steps: 
 - Character level CNN for text classification
 - Advanced character-level CNN text classification for sentiment analysis
+
+
