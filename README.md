@@ -19,15 +19,16 @@ The first four models are implemented on Harry Potter books (text available.)
 
 Due to the lack of sentiment annotation for Harry Potter books I decided to use Twitter data for sentiment analysis. 
 
+### News classification with fast.ai has been added to the repository. With minimal training, we acheived 85% accuracy.
+
 ## More models on sentiment analysis:
 1. Recursive RNN (TreeLSTM) (09)
 2. BiLSTM with Attention/Transformer (07)
 3. Advanced character-level CNN text classification
+4. Q-RNN
+5. Dynamic memory network for QA (10)
+6. Pointer Sentinel Mixture Models
 
-## Advanced models:
-1. Transformer implementation
-2. Dynamic memory network for QA (10)
-3. Pointer Sentinel Mixture Models
 
 Feel free to pull requests!
 
