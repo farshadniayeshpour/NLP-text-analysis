@@ -1,7 +1,6 @@
 # NLP text analysis on Harry Potter books and Twitter data
 This repository is a PyTorch implementation of Stanford CS224n (Winter 2018) using Harry Potter texts + Twitter data. 
 
-Note: This material is only for personal research/study.
 
 All credits to the wonderful implementation on https://github.com/DSKSD/DeepNLP-models-Pytorch
 
@@ -29,6 +28,7 @@ Due to the lack of sentiment annotation for Harry Potter books I decided to use 
 5. Dynamic memory network for QA (10)
 6. Pointer Sentinel Mixture Models
 
+#### Note: This material is only for personal research/study.
 
 Feel free to pull requests!
 
